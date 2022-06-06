@@ -10,7 +10,10 @@ address - /api/v1/rates/dynamic/currency?charCode={EUR}
 _Возвращает объект типа GifImageDto в виде JSON Объекта_
 
 пример обращения  
-<http://127.0.0.1:8088/api/v1/rates/dynamic/currency?charCode=RUB>
+<http://127.0.0.1:{PORT}/api/v1/rates/dynamic/currency?charCode=RUB> <br/>
+<http://127.0.0.1:{PORT}/swagger-ui.html>
+
+```где {PORT} - порт из контейнера или порт приложения```
 
 ---
 
